@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #1e2023;
+  background-color:  #ffffff;
   font-family: "Poppins", sans-serif;
   /* -webkit-font-smoothing: antialiased; */
   /* -moz-osx-font-smoothing: grayscale; */
@@ -10,29 +10,17 @@ body {
 a {
   font-family: "Poppins", sans-serif;
   text-decoration: none;
-  color: #1e2023;
+  color: #2e383f;
 }
 p {
   font-family: "Poppins", sans-serif;
-  color: #ffffff;
-}
-button {
-  font-family: "Poppins", sans-serif;
+  color:#2e383f;
+  font-weight: 300;
 }
 
 /* this code is for whole navigation bar ------------------------------------------------- */
-/* .site-content {
-  max-width: 1100px;
-  height: 100vh;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
-
 .menu-icon {
-  height: 30px;
+  height: 15px;
   width: 30px;
   /* position: fixed; */
   position: absolute;
@@ -45,7 +33,7 @@ button {
   height: 2px;
   width: 30px;
   display: block;
-  background-color: #ffffff;
+  background-color:#66bfbf;
   margin-bottom: 4px;
   transition: transform 0.2s ease, background-color 0.5s ease;
 }
@@ -67,13 +55,13 @@ button {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background: rgba(234, 234, 234, 0.2);
+  background: #6f757a;
   z-index: -1;
   transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.8s;
   transform: translateX(0%) translateY(-100%);
 }
 .nav:after {
-  background: #ffffff;
+  background:  #ffee93;
   transition-delay: 0s;
 }
 .nav:before {
@@ -105,7 +93,7 @@ button {
 .nav__list-item:before {
   content: "";
   position: absolute;
-  background: #f05454;
+  background: #2e383f;
   width: 10px;
   height: 2px;
   top: 100%;
@@ -118,7 +106,7 @@ button {
 }
 
 body.nav-active .menu-icon__line {
-  background-color: #1e2023;
+  background-color:#2e383f;
   transform: translateX(0px) rotate(-45deg);
 }
 body.nav-active .menu-icon__line-left {
@@ -178,7 +166,7 @@ body.nav-active .menu-icon {
   position: fixed;
 }
 /* this code is for snmall screen for naviagtion bar */
-@media (min-width: 200px) and (max-width: 623px) {
+@media (min-width: 200px) and (max-width: 541px) {
   .nav__list {
     padding-left: 0;
     display: grid;
@@ -187,7 +175,7 @@ body.nav-active .menu-icon {
     margin: 4%;
     /* font-size: x-large; */
   }
-  .nav__content{
+  .nav__content {
     font-size: calc(2vw + 10px);
   }
 }
@@ -195,12 +183,12 @@ body.nav-active .menu-icon {
 /* this code is for logo in landing page --------------------------------------------------- */
 .logo {
   text-align: right;
-  padding-top: 4px;
+  /* padding-top: 4px; */
 }
 .logo h2 {
-  margin: 16px 0 0 0;
+  margin: 14px 0 0 0;
   display: inline-block;
-  color: #f05454;
+  color: #66bfbf;
   /* font-size: x-large; */
   /* padding-right: 5%; */
   margin-right: 30px;
@@ -216,63 +204,62 @@ body.nav-active .menu-icon {
 /* this code is for typing word */
 .hand {
   font-size: xx-large;
+  margin: 20px 0 20px 0;
 }
 .typewrite {
-  color: #f05454;
+  color:#66bfbf;
   text-decoration: none;
   font-size: xx-large;
+  margin: 20px 0 20px 0;
 }
 /* this code is for button in landing page */
-.button {
-  position: relative;
-  margin: auto;
-  padding: 13px 22px;
-  transition: all 0.2s ease;
+.btn-flip {
+  opacity: 1;
+  outline: 0;
   color: #ffffff;
-  margin: 10px;
-}
-.button:before {
-  content: "";
-  position: absolute;
-  top: -1px;
-  left: 0;
-  display: block;
-  border-radius: 28px;
-  background: #f05454;
-  width: 56px;
-  height: 56px;
-  transition: all 0.3s ease;
-}
-.button span {
+  line-height: 40px;
   position: relative;
-  font-size: 16px;
-  /* line-height: 18px; */
-  /* font-weight: 900; */
-  /* letter-spacing: 0.25em; */
+  text-align: center;
+  letter-spacing: 1px;
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  /* font-family: "Open Sans"; */
   /* text-transform: uppercase; */
-  /* vertical-align: middle; */
 }
-.button svg {
-  position: relative;
+.btn-flip:hover:after {
+  opacity: 1;
+  transform: translateY(0) rotateX(0);
+}
+.btn-flip:hover:before {
+  opacity: 0;
+  transform: translateY(50%) rotateX(90deg);
+}
+.btn-flip:after {
   top: 0;
-  margin-left: 10px;
-  fill: none;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke: #ffffff;
-  stroke-width: 2;
-  transform: translateX(-5px);
-  transition: all 0.3s ease;
-}
-.button:hover:before {
+  left: 0;
+  opacity: 0;
   width: 100%;
-  background: #f05454;
+  color: #2e383f;
+  display: block;
+  transition: 0.5s;
+  position: absolute;
+  background:#ffee93;
+  content: attr(data-back);
+  transform: translateY(-50%) rotateX(90deg);
 }
-.button:hover svg {
-  transform: translateX(0);
-}
-.button:active {
-  transform: scale(0.96);
+.btn-flip:before {
+  top: 0;
+  left: 0;
+  opacity: 1;
+  display: block;
+  padding: 0 17px;
+  line-height: 40px;
+  transition: 0.5s;
+  position: relative;
+  background: #66bfbf;
+  content: attr(data-front);
+  transform: translateY(0) rotateX(0);
 }
 
 /* this code is for whole about section ---------------------------------------------------------------------------- */
@@ -283,7 +270,7 @@ body.nav-active .menu-icon {
 }
 .about-headline {
   text-align: left;
-  color: #f05454;
+  color: #66bfbf;
 }
 .avatar img {
   margin-top: 10%;
@@ -318,14 +305,14 @@ body.nav-active .menu-icon {
   text-align: left;
 }
 .container {
-  background-color: rgb(192, 192, 192);
+  background-color: rgb(228, 226, 226);
   /* width: 50%;  */
   border-radius: 10px;
   /* height: 20px; */
 }
 .skill {
-  background-color: #f05454;
-  color: white;
+  background-color:#66bfbf;
+  color: #ffffff;
   /* padding: 1px;  */
   text-align: right;
   font-size: 12px;
@@ -360,7 +347,7 @@ body.nav-active .menu-icon {
 }
 .blogs-content {
   margin-top: 10%;
-  color: #ffffff;
+  color: #2e383f;
 }
 
 /* this code is for whole contact page ---------------------------------------------------------------------------------------- */
@@ -378,11 +365,10 @@ body.nav-active .menu-icon {
   text-align: center;
 }
 .icons a {
-  color: #ffffff;
+  color: #2e383f;
   font-size: x-large;
   margin: 1%;
 }
 .icons a:hover {
-  color: #f05454;
+  color:#66bfbf;
 }
-
