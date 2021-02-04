@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color:  #ffffff;
+  background-color: #ffffff;
   font-family: "Poppins", sans-serif;
   /* -webkit-font-smoothing: antialiased; */
   /* -moz-osx-font-smoothing: grayscale; */
@@ -14,7 +14,7 @@ a {
 }
 p {
   font-family: "Poppins", sans-serif;
-  color:#2e383f;
+  color: #2e383f;
   font-weight: 300;
 }
 
@@ -33,7 +33,7 @@ p {
   height: 2px;
   width: 30px;
   display: block;
-  background-color:#66bfbf;
+  background-color: #66bfbf;
   margin-bottom: 4px;
   transition: transform 0.2s ease, background-color 0.5s ease;
 }
@@ -61,7 +61,7 @@ p {
   transform: translateX(0%) translateY(-100%);
 }
 .nav:after {
-  background:  #ffee93;
+  background: #ffee93;
   transition-delay: 0s;
 }
 .nav:before {
@@ -106,7 +106,7 @@ p {
 }
 
 body.nav-active .menu-icon__line {
-  background-color:#2e383f;
+  background-color: #2e383f;
   transform: translateX(0px) rotate(-45deg);
 }
 body.nav-active .menu-icon__line-left {
@@ -186,7 +186,7 @@ body.nav-active .menu-icon {
   /* padding-top: 4px; */
 }
 .logo h2 {
-  margin: 14px 0 0 0;
+  margin: 18px 0 0 0;
   display: inline-block;
   color: #66bfbf;
   /* font-size: x-large; */
@@ -207,60 +207,104 @@ body.nav-active .menu-icon {
   margin: 20px 0 20px 0;
 }
 .typewrite {
-  color:#66bfbf;
+  color: #66bfbf;
   text-decoration: none;
   font-size: xx-large;
   margin: 20px 0 20px 0;
 }
 /* this code is for button in landing page */
-.btn-flip {
-  opacity: 1;
-  outline: 0;
-  color: #ffffff;
-  line-height: 40px;
+/* body {
+  font-family: "Lato", sans-serif;
+  color: #111;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  background-color: #ECECEC;
+} */
+
+/* .container {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+} */
+
+.btn {
+  margin: 20px auto;
+  border: none;
+  padding: 10px 44px;
+  font-size: 20px;
   position: relative;
-  text-align: center;
-  letter-spacing: 1px;
-  display: inline-block;
-  text-decoration: none;
-  font-family: "Poppins", sans-serif;
-  /* font-family: "Open Sans"; */
-  /* text-transform: uppercase; */
 }
-.btn-flip:hover:after {
-  opacity: 1;
-  transform: translateY(0) rotateX(0);
-}
-.btn-flip:hover:before {
-  opacity: 0;
-  transform: translateY(50%) rotateX(90deg);
-}
-.btn-flip:after {
-  top: 0;
-  left: 0;
-  opacity: 0;
-  width: 100%;
-  color: #2e383f;
-  display: block;
-  transition: 0.5s;
+.btn::before {
+  transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  content: "";
+  width: 50%;
+  height: 100%;
+  background: black;
   position: absolute;
-  background:#ffee93;
-  content: attr(data-back);
-  transform: translateY(-50%) rotateX(90deg);
-}
-.btn-flip:before {
   top: 0;
   left: 0;
-  opacity: 1;
-  display: block;
-  padding: 0 17px;
-  line-height: 40px;
-  transition: 0.5s;
-  position: relative;
-  background: #66bfbf;
-  content: attr(data-front);
-  transform: translateY(0) rotateX(0);
 }
+/* .btn .btn-text {
+  color: white;
+  mix-blend-mode: difference;
+} */
+/* .btn:hover::before {
+  background: black;
+  width: 100%;
+} */
+.btn.rounded {
+  border-radius: 50px;
+}
+.btn.rounded .text-green {
+  color: #2e383f;
+  mix-blend-mode: difference;
+}
+.btn.rounded::before {
+  border-radius: 50px;
+  width: 25%;
+  background:#66bfbf;
+}
+.btn.rounded:hover::before {
+  background: #66bfbf;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* this code is for whole about section ---------------------------------------------------------------------------- */
 #about-section {
@@ -311,7 +355,7 @@ body.nav-active .menu-icon {
   /* height: 20px; */
 }
 .skill {
-  background-color:#66bfbf;
+  background-color: #66bfbf;
   color: #ffffff;
   /* padding: 1px;  */
   text-align: right;
@@ -370,5 +414,5 @@ body.nav-active .menu-icon {
   margin: 1%;
 }
 .icons a:hover {
-  color:#66bfbf;
+  color: #66bfbf;
 }
