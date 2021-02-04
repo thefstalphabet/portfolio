@@ -55,7 +55,7 @@ p {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background: #6f757a;
+  background: #f8f3cf;
   z-index: -1;
   transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.8s;
   transform: translateX(0%) translateY(-100%);
@@ -265,46 +265,12 @@ body.nav-active .menu-icon {
 .btn.rounded::before {
   border-radius: 50px;
   width: 25%;
-  background:#66bfbf;
+  background: #66bfbf;
 }
 .btn.rounded:hover::before {
   background: #66bfbf;
   width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* this code is for whole about section ---------------------------------------------------------------------------- */
 #about-section {
