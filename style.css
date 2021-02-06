@@ -4,8 +4,6 @@ body {
   padding: 0;
   background-color: #ffffff;
   font-family: "Poppins", sans-serif;
-  /* -webkit-font-smoothing: antialiased; */
-  /* -moz-osx-font-smoothing: grayscale; */
 }
 a {
   font-family: "Poppins", sans-serif;
@@ -15,7 +13,7 @@ a {
 p {
   font-family: "Poppins", sans-serif;
   color: #2e383f;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 /* this code is for whole navigation bar ------------------------------------------------- */
@@ -33,7 +31,7 @@ p {
   height: 2px;
   width: 30px;
   display: block;
-  background-color: #66bfbf;
+  background-color: #11698e;
   margin-bottom: 4px;
   transition: transform 0.2s ease, background-color 0.5s ease;
 }
@@ -188,7 +186,7 @@ body.nav-active .menu-icon {
 .logo h2 {
   margin: 20px 0 0 0;
   display: inline-block;
-  color: #66bfbf;
+  color: #11698e;
   /* font-size: x-large; */
   /* padding-right: 5%; */
   margin-right: 30px;
@@ -197,9 +195,11 @@ body.nav-active .menu-icon {
 
 /* this code is for all content in landing page ------------------------------------------------------------ */
 .content-in-landing-page {
-  padding-top: 8%;
+  /* padding-top: 8%; */
   text-align: center;
   color: #ffffff;
+  padding: 4%;
+  margin-top: 10%;
 }
 /* this code is for typing word */
 .hand {
@@ -207,7 +207,7 @@ body.nav-active .menu-icon {
   margin: 20px 0 20px 0;
 }
 .typewrite {
-  color: #66bfbf;
+  color: #11698e;
   text-decoration: none;
   font-size: xx-large;
   margin: 20px 0 20px 0;
@@ -265,10 +265,10 @@ body.nav-active .menu-icon {
 .btn.rounded::before {
   border-radius: 50px;
   width: 25%;
-  background: #66bfbf;
+  background: #11698e;
 }
 .btn.rounded:hover::before {
-  background: #66bfbf;
+  background: #11698e;
   width: 100%;
 }
 
@@ -280,7 +280,7 @@ body.nav-active .menu-icon {
 }
 .about-headline {
   text-align: left;
-  color: #66bfbf;
+  color: #11698e;
 }
 .avatar img {
   margin-top: 10%;
@@ -321,7 +321,7 @@ body.nav-active .menu-icon {
   /* height: 20px; */
 }
 .skill {
-  background-color: #66bfbf;
+  background-color: #11698e;
   color: #ffffff;
   /* padding: 1px;  */
   text-align: right;
@@ -380,5 +380,5 @@ body.nav-active .menu-icon {
   margin: 1%;
 }
 .icons a:hover {
-  color: #66bfbf;
+  color: #11698e;
 }
