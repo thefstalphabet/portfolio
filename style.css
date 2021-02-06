@@ -212,6 +212,13 @@ body.nav-active .menu-icon {
   font-size: xx-large;
   margin: 20px 0 20px 0;
 }
+.content-in-landing-page p span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  /* animation: blink 1s infinite; */
+}
 /* this code is for button in landing page */
 /* body {
   font-family: "Lato", sans-serif;
