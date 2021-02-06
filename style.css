@@ -348,6 +348,9 @@ body.nav-active .menu-icon {
 .html {
   width: 80%;
 }
+.java {
+  width: 50%;
+}
 
 /* this code is for blog section ------------------------------------------------------------------------------------- */
 #blogs-section {
