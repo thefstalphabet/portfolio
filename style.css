@@ -13,7 +13,13 @@ a {
 p {
   font-family: "Poppins", sans-serif;
   color: #2e383f;
-  font-weight: 600;
+  font-weight: 510;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: #2e383f;
 }
 
 /* this code is for whole navigation bar ------------------------------------------------- */
@@ -219,24 +225,8 @@ body.nav-active .menu-icon {
   width: 3px;
   /* animation: blink 1s infinite; */
 }
+
 /* this code is for button in landing page */
-/* body {
-  font-family: "Lato", sans-serif;
-  color: #111;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  background-color: #ECECEC;
-} */
-
-/* .container {
-  width: auto;
-  display: flex;
-  flex-direction: column;
-} */
-
 .btn {
   margin: 20px auto;
   border: none;
@@ -271,7 +261,8 @@ body.nav-active .menu-icon {
 }
 .btn.rounded::before {
   border-radius: 50px;
-  width: 25%;
+  width: 43px;
+  /* width: 25%; */
   background: #11698e;
 }
 .btn.rounded:hover::before {
@@ -358,6 +349,9 @@ body.nav-active .menu-icon {
 .java {
   width: 50%;
 }
+.GraphicDesign {
+  width: 80%;
+}
 
 /* this code is for blog section ------------------------------------------------------------------------------------- */
 #blogs-section {
@@ -366,6 +360,17 @@ body.nav-active .menu-icon {
   margin-top: 10%;
 }
 .blogs-content {
+  margin-top: 10%;
+  color: #2e383f;
+}
+
+/* this code is for article section ------------------------------------------------------------------------------------- */
+#article-section {
+  padding: 4%;
+  text-align: left;
+  margin-top: 10%;
+}
+.article-one {
   margin-top: 10%;
   color: #2e383f;
 }
