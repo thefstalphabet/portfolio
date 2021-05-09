@@ -1,4 +1,4 @@
-/* this code is for whole html page ----------------------------------------------------------------- */
+/* this code is for whole html page ------------------------------------------- */
 body {
   margin: 0;
   padding: 0;
@@ -16,13 +16,12 @@ p {
   font-weight: 510;
 }
 h1,
-h2,
 h3,
 h4 {
   color: #2e383f;
 }
 
-/* this code is for whole navigation bar ------------------------------------------------- */
+/* this code is for whole navigation bar ------------------------------------------ */
 .menu-icon {
   height: 15px;
   width: 30px;
@@ -48,7 +47,6 @@ h4 {
   width: 15px;
   float: right;
 }
-
 .nav {
   position: fixed;
   z-index: 1;
@@ -108,7 +106,6 @@ h4 {
 .nav__list-item:hover:before {
   width: 100%;
 }
-
 body.nav-active .menu-icon__line {
   background-color: #2e383f;
   transform: translateX(0px) rotate(-45deg);
@@ -184,7 +181,7 @@ body.nav-active .menu-icon {
   }
 }
 
-/* this code is for logo in landing page --------------------------------------------------- */
+/* this code is for logo in landing page ----------------------------------------------- */
 .logo {
   text-align: right;
   /* padding-top: 4px; */
@@ -199,7 +196,7 @@ body.nav-active .menu-icon {
   /* font-weight: 600; */
 }
 
-/* this code is for all content in landing page ------------------------------------------------------------ */
+/* this code is for all content in landing page ---------------------------------------------- */
 .content-in-landing-page {
   /* padding-top: 8%; */
   text-align: center;
@@ -270,7 +267,7 @@ body.nav-active .menu-icon {
   width: 100%;
 }
 
-/* this code is for whole about section ---------------------------------------------------------------------------- */
+/* this code is for whole about section ------------------------------------------------------- */
 #about-section {
   padding: 4%;
   text-align: center;
@@ -278,7 +275,7 @@ body.nav-active .menu-icon {
 }
 .about-headline {
   text-align: left;
-  color: #11698e;
+  color: #2e383f;
 }
 .avatar img {
   margin-top: 10%;
@@ -290,7 +287,7 @@ body.nav-active .menu-icon {
   margin-top: 10%;
 }
 
-/* this code is for whole projects section ------------------------------------------------------------------------------- */
+/* this code is for whole projects section --------------------------------------------------------- */
 #projects-section {
   padding: 4%;
   margin-top: 10%;
@@ -300,7 +297,7 @@ body.nav-active .menu-icon {
   margin: 0;
 }
 
-/* this code is for skill section ----------------------------------------------------------------------------------- */
+/* this code is for skill section ------------------------------------------------------------------- */
 #skills-section {
   padding: 4%;
   margin-top: 10%;
@@ -330,7 +327,6 @@ body.nav-active .menu-icon {
 .graph {
   margin-top: 10%;
 }
-
 .python {
   width: 60%;
 }
@@ -353,7 +349,7 @@ body.nav-active .menu-icon {
   width: 80%;
 }
 
-/* this code is for blog section ------------------------------------------------------------------------------------- */
+/* this code is for blog section ---------------------------------------------------------------- */
 #blogs-section {
   padding: 4%;
   text-align: left;
@@ -364,7 +360,7 @@ body.nav-active .menu-icon {
   color: #2e383f;
 }
 
-/* this code is for article section ------------------------------------------------------------------------------------- */
+/* this code is for article section ----------------------------------------------------------- */
 #article-section {
   padding: 4%;
   text-align: left;
@@ -375,7 +371,7 @@ body.nav-active .menu-icon {
   color: #2e383f;
 }
 
-/* this code is for whole contact page ---------------------------------------------------------------------------------------- */
+/* this code is for whole contact page ------------------------------------------------------------ */
 #contact-section {
   padding: 4%;
   margin-top: 10%;
@@ -384,7 +380,8 @@ body.nav-active .menu-icon {
 .contact-content {
   margin-top: 10%;
 }
-/* this code is for social sections ------------------------------------------------------------------------------------------ */
+
+/* this code is for social sections ---------------------------------------------------------------- */
 #social-section {
   padding: 4%;
   text-align: center;
