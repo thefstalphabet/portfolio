@@ -254,7 +254,8 @@ body.nav-active .menu-icon {
   border-radius: 50px;
 }
 .btn.rounded .text-green {
-  color: #2e383f;
+  color: rgb(87, 87, 87);
+  /* color: #2e383f; */
   mix-blend-mode: difference;
 }
 .btn.rounded::before {
@@ -286,7 +287,7 @@ body.nav-active .menu-icon {
 .bio {
   text-align: left;
   margin-top: 10%;
-  color: rgb(150, 150, 150);
+  color: rgb(129, 129, 129);
 }
 
 /* this code is for whole projects section --------------------------------------------------------- */
