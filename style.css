@@ -12,8 +12,8 @@ a {
 }
 p {
   font-family: "Poppins", sans-serif;
-  color: #2e383f;
-  font-weight: 510;
+  /* color: #2e383f; */
+  font-weight: 550;
 }
 h1,
 h3,
@@ -200,7 +200,7 @@ body.nav-active .menu-icon {
 .content-in-landing-page {
   /* padding-top: 8%; */
   text-align: center;
-  color: #ffffff;
+  color: #2e383f;
   padding: 4%;
   margin-top: 10%;
 }
@@ -285,6 +285,7 @@ body.nav-active .menu-icon {
 .bio {
   text-align: left;
   margin-top: 10%;
+  color: rgb(150, 150, 150);
 }
 
 /* this code is for whole projects section --------------------------------------------------------- */
@@ -355,10 +356,10 @@ body.nav-active .menu-icon {
   text-align: left;
   margin-top: 10%;
 }
-.blogs-content {
+/* .blogs-content {
   margin-top: 10%;
   color: #2e383f;
-}
+} */
 
 /* this code is for article section ----------------------------------------------------------- */
 #article-section {
@@ -366,10 +367,10 @@ body.nav-active .menu-icon {
   text-align: left;
   margin-top: 10%;
 }
-.article-one {
+/* .article-one {
   margin-top: 10%;
   color: #2e383f;
-}
+} */
 
 /* this code is for whole contact page ------------------------------------------------------------ */
 #contact-section {
