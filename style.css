@@ -13,7 +13,7 @@ a {
 p {
   font-family: "Poppins", sans-serif;
   /* color: #2e383f; */
-  font-weight: 550;
+  /* font-weight: 550; */
 }
 h1,
 h3,
@@ -203,6 +203,7 @@ body.nav-active .menu-icon {
   color: #2e383f;
   padding: 4%;
   margin-top: 10%;
+  font-weight: 600;
 }
 /* this code is for typing word */
 .hand {
@@ -309,6 +310,7 @@ body.nav-active .menu-icon {
 }  */
 .skills-name {
   text-align: left;
+  font-weight: 600;
 }
 .container {
   background-color: rgb(228, 226, 226);
