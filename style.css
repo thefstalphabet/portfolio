@@ -252,9 +252,10 @@ body.nav-active .menu-icon {
 } */
 .btn.rounded {
   border-radius: 50px;
+  background-color: rgb(228, 226, 226);
 }
 .btn.rounded .text-green {
-  color: rgb(87, 87, 87);
+  color: #595959;
   /* color: #2e383f; */
   mix-blend-mode: difference;
 }
