@@ -166,20 +166,6 @@ body.nav-active .nav__content {
 body.nav-active .menu-icon {
   position: fixed;
 }
-/* this code is for snmall screen for naviagtion bar */
-@media (min-width: 200px) and (max-width: 541px) {
-  .nav__list {
-    padding-left: 0;
-    display: grid;
-  }
-  .nav__list-item {
-    margin: 4%;
-    /* font-size: x-large; */
-  }
-  .nav__content {
-    font-size: calc(2vw + 10px);
-  }
-}
 
 /* this code is for logo in landing page ----------------------------------------------- */
 .logo {
@@ -280,7 +266,7 @@ body.nav-active .menu-icon {
   text-align: left;
   color: #2e383f;
 }
-.avatar img {
+#about-section img {
   margin-top: 10%;
   width: auto;
   height: 40vh;
