@@ -323,16 +323,13 @@ body.nav-active .menu-icon {
 .python {
   width: 60%;
 }
-.css {
-  width: 80%;
-}
 .javascript {
   width: 50%;
 }
 .cpp {
   width: 70%;
 }
-.html {
+.web-development {
   width: 80%;
 }
 .java {
@@ -340,6 +337,17 @@ body.nav-active .menu-icon {
 }
 .GraphicDesign {
   width: 80%;
+}
+
+/* this code is for certificates section ----------------------------------------------------- */
+.certificate-section {
+  padding: 4%;
+  text-align: center;
+}
+/* Content */
+.content {
+  background-color: #f3f3f3;
+  padding: 10px;
 }
 
 /* this code is for blog section ---------------------------------------------------------------- */
@@ -386,15 +394,4 @@ body.nav-active .menu-icon {
 }
 .icons a:hover {
   color: #11698e;
-}
-
-/* this code is for certificates section ----------------------------------------------------- */
-.certificate-section {
-  padding: 4%;
-  text-align: center;
-}
-/* Content */
-.content {
-  background-color: #f3f3f3;
-  padding: 10px;
 }
