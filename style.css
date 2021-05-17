@@ -385,3 +385,14 @@ body.nav-active .menu-icon {
 .icons a:hover {
   color: #11698e;
 }
+
+/* this code is for certificates section ----------------------------------------------------- */
+.certificate-section{
+  padding: 4%;
+  text-align: center;
+}
+/* Content */
+.content {
+  background-color: #e7e7e7;
+  padding: 15px;
+}
