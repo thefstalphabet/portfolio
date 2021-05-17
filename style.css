@@ -299,8 +299,7 @@ body.nav-active .menu-icon {
   font-size: 20px; 
 }  */
 .skills-name {
-  text-align: left;
-  font-weight: 600;
+  text-align: right;
 }
 .container {
   background-color: rgb(228, 226, 226);
