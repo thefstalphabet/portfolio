@@ -17,7 +17,9 @@ p {
 }
 h1,
 h3,
-h4 {
+h4,
+h5,
+h6 {
   color: #2e383f;
 }
 
@@ -387,7 +389,7 @@ body.nav-active .menu-icon {
 }
 
 /* this code is for certificates section ----------------------------------------------------- */
-.certificate-section{
+.certificate-section {
   padding: 4%;
   text-align: center;
 }
