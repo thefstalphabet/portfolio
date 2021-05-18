@@ -36,7 +36,7 @@ h6 {
   height: 2px;
   width: 30px;
   display: block;
-  background-color: #11698e;
+  background-color: #dd7d95;
   margin-bottom: 4px;
   transition: transform 0.2s ease, background-color 0.5s ease;
 }
@@ -57,13 +57,14 @@ h6 {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background: #f8f3cf;
+  background: #fcb9ca;
   z-index: -1;
   transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.8s;
   transform: translateX(0%) translateY(-100%);
 }
 .nav:after {
-  background: #ffee93;
+  /* background: #ffee93; */
+  background: #dd7d95;
   transition-delay: 0s;
 }
 .nav:before {
@@ -175,7 +176,7 @@ body.nav-active .menu-icon {
 .logo h2 {
   margin: 20px 0 0 0;
   display: inline-block;
-  color: #11698e;
+  color: #dd7d95;
   /* font-size: x-large; */
   /* padding-right: 5%; */
   margin-right: 30px;
@@ -186,30 +187,30 @@ body.nav-active .menu-icon {
 .content-in-landing-page {
   /* padding-top: 8%; */
   text-align: center;
-  color: #2e383f;
+  /* color: #2e383f; */
   padding: 4%;
+  text-align: left;
   margin-top: 10%;
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 /* this code is for typing word */
-.hand {
-  font-size: xx-large;
+/* .hand {
+  font-size: x-large;
   margin: 20px 0 20px 0;
-}
-.typewrite {
-  color: #11698e;
+} */
+/* .typewrite {
+  color: #dd7d95;
   text-decoration: none;
   font-size: xx-large;
   margin: 20px 0 20px 0;
-}
-.content-in-landing-page p span.cursor {
+} */
+.content-in-landing-page h2 span.cursor {
   display: inline-block;
   background-color: #ccc;
   margin-left: 0.1rem;
   width: 3px;
   /* animation: blink 1s infinite; */
 }
-
 /* this code is for button in landing page */
 .btn {
   margin: 20px auto;
@@ -249,18 +250,18 @@ body.nav-active .menu-icon {
   border-radius: 50px;
   width: 43px;
   /* width: 25%; */
-  background: #11698e;
+  background:#dd7d95;
 }
 .btn.rounded:hover::before {
-  background: #11698e;
+  background: #dd7d95;
   width: 100%;
 }
 
 /* this code is for whole about section ------------------------------------------------------- */
 #about-section {
   padding: 4%;
-  text-align: center;
   margin-top: 10%;
+  text-align: center;
 }
 .about-headline {
   text-align: left;
@@ -281,7 +282,6 @@ body.nav-active .menu-icon {
 #projects-section {
   padding: 4%;
   margin-top: 10%;
-  text-align: right;
 }
 #projects-section .button {
   margin: 0;
@@ -291,7 +291,6 @@ body.nav-active .menu-icon {
 #skills-section {
   padding: 4%;
   margin-top: 10%;
-  text-align: center;
 }
 .skills-name {
   text-align: right;
@@ -303,7 +302,7 @@ body.nav-active .menu-icon {
   /* height: 20px; */
 }
 .skill {
-  background-color: #11698e;
+  background-color:#dd7d95;
   color: #ffffff;
   /* padding: 1px;  */
   text-align: right;
@@ -336,25 +335,23 @@ body.nav-active .menu-icon {
 /* this code is for certificates section ----------------------------------------------------- */
 .certificate-section {
   padding: 4%;
-  text-align: center;
+  margin-top: 10%;
 }
 .certificate-content {
   background-color: #f3f3f3;
   padding: 10px;
-  box-shadow: 5px 5px 15px -7px;
+  box-shadow: 0px 5px 15px -7px;
 }
 
 /* this code is for blog section ---------------------------------------------------------------- */
 #blogs-section {
   padding: 4%;
-  text-align: left;
   margin-top: 10%;
 }
 
 /* this code is for article section ----------------------------------------------------------- */
 #article-section {
   padding: 4%;
-  text-align: left;
   margin-top: 10%;
 }
 
@@ -362,7 +359,6 @@ body.nav-active .menu-icon {
 #contact-section {
   padding: 4%;
   margin-top: 10%;
-  /* text-align: center; */
 }
 .contact-content {
   margin-top: 10%;
@@ -379,5 +375,5 @@ body.nav-active .menu-icon {
   margin: 1%;
 }
 .icons a:hover {
-  color: #11698e;
+  color: #dd7d95;
 }
