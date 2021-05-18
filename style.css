@@ -12,8 +12,6 @@ a {
 }
 p {
   font-family: "Poppins", sans-serif;
-  /* color: #2e383f; */
-  /* font-weight: 550; */
 }
 h1,
 h3,
@@ -295,9 +293,6 @@ body.nav-active .menu-icon {
   margin-top: 10%;
   text-align: center;
 }
-/* p { 
-  font-size: 20px; 
-}  */
 .skills-name {
   text-align: right;
 }
@@ -343,10 +338,10 @@ body.nav-active .menu-icon {
   padding: 4%;
   text-align: center;
 }
-/* Content */
-.content {
+.certificate-content {
   background-color: #f3f3f3;
   padding: 10px;
+  box-shadow: 5px 5px 15px -7px;
 }
 
 /* this code is for blog section ---------------------------------------------------------------- */
@@ -355,10 +350,6 @@ body.nav-active .menu-icon {
   text-align: left;
   margin-top: 10%;
 }
-/* .blogs-content {
-  margin-top: 10%;
-  color: #2e383f;
-} */
 
 /* this code is for article section ----------------------------------------------------------- */
 #article-section {
@@ -366,10 +357,6 @@ body.nav-active .menu-icon {
   text-align: left;
   margin-top: 10%;
 }
-/* .article-one {
-  margin-top: 10%;
-  color: #2e383f;
-} */
 
 /* this code is for whole contact page ------------------------------------------------------------ */
 #contact-section {
