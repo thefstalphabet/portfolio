@@ -26,49 +26,52 @@
 
 <body>
 
-    <!-- this code is for whole nav bar ------------------------------------------------------------------------>
-    <nav class="navbar">
+    <!-- this code is for whole landing page ------------------------------------------------------------------------>
+    <nav id="navigation-bar">
 
-        <!-- hamburger icon -->
-        <span class="navbar-toggle" id="js-navbar-toggle">
-            <i class="fas fa-bars"></i>
-        </span>
+        <!-- this code is for menu button -->
+        <div class="menu-icon">
+            <span class="menu-icon__line menu-icon__line-left"></span>
+            <span class="menu-icon__line"></span>
+            <span class="menu-icon__line menu-icon__line-right"></span>
+        </div>
 
-        <!-- main heading/logo -->
-        <!-- <a href="#" class="logo">PORTFOLIO</a> -->
-        <h2 class="logo">PORTFOLIO</h2>
+        <!-- this code is for navigation content -->
+        <div class="nav">
+            <div class="nav__content">
+                <ul class="nav__list">
+                    <a href="#navigation-bar">
+                        <li class="nav__list-item">HOME</li>
+                    </a>
+                    <a href="#about-section">
+                        <li class="nav__list-item">ABOUT</li>
+                    </a>
+                    <a href="#projects-section">
+                        <li class="nav__list-item">PROJECTS</li>
+                    </a>
+                    <a href="#skills-section">
+                        <li class="nav__list-item">SKILLS</li>
+                    </a>
+                    <a href="#blogs-section">
+                        <li class="nav__list-item">BLOGS</li>
+                    </a>
+                    <a href="#contact-section">
+                        <li class="nav__list-item">CONTACT</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
 
-        <!-- menu items -->
-        <ul class="main-nav" id="js-menu">
-            <li>
-                <a href="#landing-page" class="nav-links">Home</a>
-            </li>
-            <li>
-                <a href="#about-section" class="nav-links">About</a>
-            </li>
-            <li>
-                <a href="#projects-section" class="nav-links">Projects</a>
-            </li>
-            <li>
-                <a href="#skills-section" class="nav-links">skills</a>
-            </li>
-            <li>
-                <a href="#certificate-section" class="nav-links">Certificate</a>
-            </li>
-            <li>
-                <a href="#blogs-section" class="nav-links">Blog</a>
-            </li>
-            <li>
-                <a href="#contact-section" class="nav-links">Contact</a>
-            </li>
-        </ul>
+        <!-- this code is for logo -->
+        <div class="logo">
+            <h2>PORTFOLIO</h2>
+        </div>
 
     </nav>
 
-    <!-- this code is for whole landing page content ------------------------------------------------------------------->
+    <!-- this code is for all content in landing page -->
     <div id="landing-page">
 
-        <!-- typing words -->
         <h2 class="hand">👋🏻
             <a href="" class="typewrite" data-period="2000"
                 data-type='[ "Hello! ", "안녕하세요! ", "Hola! ", "Ciao! ", "வணக்கம்! ", "ਸਤ ਸ੍ਰੀ ਅਕਾਲ! ", "こんにちは! ", "Salve! ", "नमस्ते! " ]'>
@@ -202,7 +205,7 @@
     </div>
 
     <!-- this section is for certificates  --------------------------------------------------------- -->
-    <div id="certificate-section">
+    <div class="certificate-section">
 
         <div class="certificate-headline about-headline">
             <h2>CERTIFICATES <i class="fas fa-certificate"></i></h2>
