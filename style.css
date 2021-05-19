@@ -177,9 +177,6 @@ body.nav-active .menu-icon {
   margin: 20px 5% 0 0;
   display: inline-block;
   color: #dd7d95;
-  /* font-size: x-large; */
-  /* padding-right: 5%; */
-  /* font-weight: 600; */
 }
 
 /* this code is for all content in landing page ---------------------------------------------- */
@@ -323,7 +320,7 @@ body.nav-active .menu-icon {
 }
 .other-skills img{
   height: auto;
-  width: 10%;
+  width: 3rem;
   margin: 1%;
 }
 
