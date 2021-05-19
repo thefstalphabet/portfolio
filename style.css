@@ -293,11 +293,9 @@ body.nav-active .menu-icon {
 .skill {
   background-color:#dd7d95;
   color: #ffffff;
-  /* padding: 1px;  */
   text-align: right;
   font-size: 12px;
   border-radius: 10px;
-  /* height: 20px; */
 }
 .graph {
   margin-top: 10%;
@@ -319,6 +317,14 @@ body.nav-active .menu-icon {
 }
 .GraphicDesign {
   width: 80%;
+}
+.other-skills{
+  margin-top: 8%;
+}
+.other-skills img{
+  height: auto;
+  width: 10%;
+  margin: 1%;
 }
 
 /* this code is for certificates section ----------------------------------------------------- */
