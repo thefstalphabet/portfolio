@@ -1,15 +1,29 @@
 /* this code is for snmall screen for naviagtion bar ----------------------- */
-@media (min-width: 200px) and (max-width: 541px) {
-  .nav__list {
-    padding-left: 0;
-    display: grid;
+@media screen and (min-width: 950px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
   }
-  .nav__list-item {
-    margin: 4%;
-    /* font-size: x-large; */
+  .main-nav {
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
   }
-  .nav__content {
-    font-size: calc(2vw + 10px);
+  .main-nav li {
+    margin: 0;
+  }
+  .nav-links {
+    margin: 0 20px 0 20px;
+  }
+  .logo {
+    margin-top: 0;
+  }
+  .navbar-toggle {
+    display: none;
   }
 }
 

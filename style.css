@@ -10,7 +10,7 @@ a {
   text-decoration: none;
   color: #2e383f;
 }
-p {
+p,ul {
   font-family: "Poppins", sans-serif;
 }
 h1,
@@ -19,201 +19,60 @@ h4,
 h5,
 h6 {
   color: #2e383f;
+  font-family: "Poppins", sans-serif;
 }
 
 /* this code is for whole navigation bar ------------------------------------------ */
-.menu-icon {
-  height: 15px;
-  width: 30px;
-  /* position: fixed; */
-  position: absolute;
-  z-index: 2;
-  left: 50px;
-  top: 30px;
-  cursor: pointer;
-}
-.menu-icon__line {
-  height: 2px;
-  width: 30px;
-  display: block;
+.navbar {
+  font-size: 18px;
   background-color: #dd7d95;
-  margin-bottom: 4px;
-  transition: transform 0.2s ease, background-color 0.5s ease;
+  padding-bottom: 10px;
 }
-.menu-icon__line-left {
-  width: 15px;
+.main-nav {
+  list-style-type: none;
+  display: none;
 }
-.menu-icon__line-right {
-  width: 15px;
-  float: right;
+.nav-links,.logo{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
 }
-.nav {
-  position: fixed;
-  z-index: 1;
-}
-.nav:before,
-.nav:after {
-  content: "";
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  background: #fcb9ca;
-  z-index: -1;
-  transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.8s;
-  transform: translateX(0%) translateY(-100%);
-}
-.nav:after {
-  /* background: #ffee93; */
-  background: #dd7d95;
-  transition-delay: 0s;
-}
-.nav:before {
-  transition-delay: 0.1s;
-}
-.nav__content {
-  position: fixed;
-  top: 50%;
-  transform: translate(0%, -50%);
-  width: 100%;
+.main-nav li {
   text-align: center;
-  font-size: calc(1.7vw + 10px);
-  font-weight: 200;
-  cursor: pointer;
+  margin: 15px auto;
 }
-.nav__list {
+.logo {
+  display: inline-block;
+  /* font-size: 22px; */
+  margin-bottom: 0;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.navbar-toggle {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+}
+.active {
+  display: block;
   padding: 0;
 }
-.nav__list-item {
-  position: relative;
-  display: inline-block;
-  transition-delay: 0.8s;
-  opacity: 0;
-  transform: translate(0%, 100%);
-  transition: opacity 0.2s ease, transform 0.3s ease;
-  /* margin-right: 25px; */
-  margin: 1%;
-}
-.nav__list-item:before {
-  content: "";
-  position: absolute;
-  background: #2e383f;
-  width: 10px;
-  height: 2px;
-  top: 100%;
-  transform: translate(0%, 0%);
-  transition: all 0.3s ease;
-  z-index: -1;
-}
-.nav__list-item:hover:before {
-  width: 100%;
-}
-body.nav-active .menu-icon__line {
-  background-color: #2e383f;
-  transform: translateX(0px) rotate(-45deg);
-}
-body.nav-active .menu-icon__line-left {
-  transform: translateX(1px) rotate(45deg);
-}
-body.nav-active .menu-icon__line-right {
-  transform: translateX(-2px) rotate(45deg);
-}
-body.nav-active .nav {
-  visibility: visible;
-}
-body.nav-active .nav:before,
-body.nav-active .nav:after {
-  transform: translateX(0%) translateY(0%);
-}
-body.nav-active .nav:after {
+.nav-links:hover {
+  border-bottom: 2px solid white;
   transition-delay: 0.1s;
 }
-body.nav-active .nav:before {
-  transition-delay: 0s;
-}
-body.nav-active .nav__list-item {
-  opacity: 1;
-  transform: translateX(0%);
-  transition: opacity 0.3s ease, transform 0.3s ease, color 0.3s ease;
-}
-body.nav-active .nav__list-item:nth-child(0) {
-  transition-delay: 0.5s;
-}
-body.nav-active .nav__list-item:nth-child(1) {
-  transition-delay: 0.6s;
-}
-body.nav-active .nav__list-item:nth-child(2) {
-  transition-delay: 0.7s;
-}
-body.nav-active .nav__list-item:nth-child(3) {
-  transition-delay: 0.8s;
-}
-body.nav-active .nav__list-item:nth-child(4) {
-  transition-delay: 0.9s;
-}
-body.nav-active .nav__list-item:nth-child(5) {
-  transition-delay: 1s;
-}
-body.nav-active .nav__list-item:nth-child(6) {
-  transition-delay: 1.1s;
-}
-/* this code is for hidden nav content when menu is off and show nav content when menu button is on */
-.nav__content {
-  visibility: hidden;
-}
-body.nav-active .nav__content {
-  visibility: visible;
-}
-/* this code is for when menu btn on then menu btn fixed at position */
-body.nav-active .menu-icon {
-  position: fixed;
-}
-
-/* this code is for logo in landing page ----------------------------------------------- */
-.logo {
-  text-align: right;
-  /* padding-top: 4px; */
-}
-.logo h2 {
-  margin: 20px 0 0 0;
-  display: inline-block;
-  color: #dd7d95;
-  /* font-size: x-large; */
-  /* padding-right: 5%; */
-  margin-right: 30px;
-  /* font-weight: 600; */
-}
-
 /* this code is for all content in landing page ---------------------------------------------- */
-.content-in-landing-page {
-  /* padding-top: 8%; */
+#landing-page {
   text-align: center;
-  /* color: #2e383f; */
   padding: 4%;
   text-align: left;
   margin-top: 10%;
-  /* font-weight: 600; */
-}
-/* this code is for typing word */
-/* .hand {
-  font-size: x-large;
-  margin: 20px 0 20px 0;
-} */
-/* .typewrite {
-  color: #dd7d95;
-  text-decoration: none;
-  font-size: xx-large;
-  margin: 20px 0 20px 0;
-} */
-.content-in-landing-page h2 span.cursor {
-  display: inline-block;
-  background-color: #ccc;
-  margin-left: 0.1rem;
-  width: 3px;
-  /* animation: blink 1s infinite; */
 }
 /* this code is for button in landing page */
 .btn {
-  margin: 20px auto;
+  /* margin: 20px auto; */
   border: none;
   padding: 10px 44px;
   font-size: 20px;
@@ -333,7 +192,7 @@ body.nav-active .menu-icon {
 }
 
 /* this code is for certificates section ----------------------------------------------------- */
-.certificate-section {
+#certificate-section {
   padding: 4%;
   margin-top: 10%;
 }
