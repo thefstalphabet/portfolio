@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- important meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- linked font awosome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- linked style seet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- for small screen -->
+    <link rel="stylesheet" href="smallScreen.css">
+
+    <!-- linked febi icon -->
+    <link rel="icon" href="images/icon.ico">
+
+    <!-- linked googlefont -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <title>Akash Patel Portfolio</title>
+</head>
+
+<body>
+
+    <!-- this code is for whole landing page ------------------------------------------------------------------------>
+    <nav id="navigation-bar">
+
+        <!-- this code is for menu button -->
+        <div class="menu-icon">
+            <span class="menu-icon__line menu-icon__line-left"></span>
+            <span class="menu-icon__line"></span>
+            <span class="menu-icon__line menu-icon__line-right"></span>
+        </div>
+
+        <!-- this code is for navigation content -->
+        <div class="nav">
+            <div class="nav__content">
+                <ul class="nav__list">
+                    <a href="#navigation-bar">
+                        <li class="nav__list-item">HOME</li>
+                    </a>
+                    <a href="#about-section">
+                        <li class="nav__list-item">ABOUT</li>
+                    </a>
+                    <a href="#projects-section">
+                        <li class="nav__list-item">PROJECTS</li>
+                    </a>
+                    <a href="#skills-section">
+                        <li class="nav__list-item">SKILLS</li>
+                    </a>
+                    <a href="#blogs-section">
+                        <li class="nav__list-item">BLOGS</li>
+                    </a>
+                    <a href="#contact-section">
+                        <li class="nav__list-item">CONTACT</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+
+        <!-- this code is for logo -->
+        <div class="logo">
+            <h2>PORTFOLIO</h2>
+        </div>
+
+    </nav>
+
+    <!-- this code is for all content in landing page -->
+    <div id="landing-page">
+
+        <h2 class="hand">👋🏻
+            <a href="" class="typewrite" data-period="2000"
+                data-type='[ "Hello! ", "안녕하세요! ", "Hola! ", "Ciao! ", "வணக்கம்! ", "ਸਤ ਸ੍ਰੀ ਅਕਾਲ! ", "こんにちは! ", "Salve! ", "नमस्ते! " ]'>
+                <span class="wrap">
+                </span>
+            </a><span class="cursor">&nbsp;</span>
+        </h2>
+
+        <!-- heading in landing page -->
+        <div class="heading">
+            <h4>I'm Akash Patel</h4>
+            <h4>A boy tring to figure out cool stuff</h4>
+        </div>
+
+        <div class="button">
+            <a href="#contact-section">
+                <button class="btn rounded">
+                    <span class="text-green">Let's Talk</span>
+                </button>
+            </a>
+        </div>
+
+    </div>
+
+    <!-- this code is for whole about section ----------------------------------------------------------------->
+    <div id="about-section">
+
+        <div class="about-headline">
+            <h2>ABOUT <i class="fas fa-align-left"></i></h2>
+        </div>
+
+        <img src="images/avatar.png" alt="Akash patel photo">
+
+        <div class="bio">
+            <p>I'm from India, A Developer and A Passionate Graphic Designer, I'm a third year undergrad at
+                University Institute of Technology, RGPV. I love to explore new things and i love to solve problem,
+                currently im exploring new technologies like Devops, mechine learning, artificial inteligence and cloud
+                computing etc.
+            </p>
+        </div>
+
+    </div>
+
+    <!-- this code is for whole projects section ----------------------------------------------------------------->
+    <div id="projects-section">
+
+        <div class="projects-heading about-headline">
+            <h2>PROJECTS <i class="fas fa-boxes"></i></h2>
+        </div>
+
+        <!-- project number one the basic snake game -->
+        <div class="project-one bio">
+
+            <h3>The Basic Snake Game</h3>
+
+            <p>It's a basic snake game made using Pygame module in python with user friendly interface. Features - It is
+                show you highest score and also show your score while playing. If you touch the end screen the game is
+                over. How to play - Control snake from left, right, up, down arrow keys. You can also check that project
+                code on github.</p>
+
+            <div class="button">
+                <a href="https://github.com/thefstalphabet/Basic-Snake-game">
+                    <button class="btn rounded">
+                        <span class="text-green">View Project</span>
+                    </button>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="project-two bio">
+
+            <h3>The GapSap web application</h3>
+
+            <p>It's an web application for chatting. Using this application you can send a message to a person who is
+                using this applicaton. This chatting application will provide fast messaging service. It will send and
+                receive message instantly. You can also check that project
+                code on github.</p>
+
+            <div class="button">
+                <a href="https://github.com/thefstalphabet/GapSap">
+                    <button class="btn rounded">
+                        <span class="text-green">View Project</span>
+                    </button>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- this code is for whole skill section ----------------------------------------------------------------->
+    <div id="skills-section">
+
+        <div class="skills-heading about-headline">
+            <h2>SKILLS <i class="fas fa-heart"></i></h2>
+        </div>
+
+        <div class="graph">
+            <h4 class="skills-name">Python</h4>
+            <div class="container">
+                <div class="skill python">60%</div>
+            </div>
+
+            <h4 class="skills-name">JavaScript</h4>
+            <div class="container">
+                <div class="skill javascript">50%</div>
+            </div>
+
+            <h4 class="skills-name">C++</h4>
+            <div class="container">
+                <div class="skill cpp">70%</div>
+            </div>
+
+            <h4 class="skills-name">Web development</h4>
+            <div class="container">
+                <div class="skill web-development">80%</div>
+            </div>
+
+            <h4 class="skills-name">Java</h4>
+            <div class="container">
+                <div class="skill java">50%</div>
+            </div>
+
+            <h4 class="skills-name">Graphic design</h4>
+            <div class="container">
+                <div class="skill GraphicDesign">80%</div>
+            </div>
+        </div>
+
+        <!-- this code is for other skills -->
+        <div class="other-skills">
+            <img src="images/canva.png" alt="Canva logo">
+            <img src="images/git.png" alt="Git logo">
+            <img src="images/photoshop.png" alt="Adobe photoshop logo">
+            <img src="images/node.png" alt="Node logo">
+            <img src="images/indesign.png" alt="Adobe indesign logo">
+            <img src="images/illustrator.png" alt="Adobe illustrator logo">
+        </div>
+
+    </div>
+
+    <!-- this section is for certificates  --------------------------------------------------------- -->
+    <div class="certificate-section">
+
+        <div class="certificate-headline about-headline">
+            <h2>CERTIFICATES <i class="fas fa-certificate"></i></h2>
+        </div>
+
+        <div class="certificate-content bio">
+            <img src="images/certificate-1.jpg" alt="Google certificate" style="width:100%">
+            <!-- <a href="https://learndigital.withgoogle.com"><h4>GOOGLE DIGITAL GARAGE</h4></a> -->
+            <h4>Fundamentals of Digital Marketing</h4>
+            <p>In this course i have learned about fundamental of digital marketing.</p>
+        </div>
+
+        <div class="certificate-content bio">
+            <img src="images/certificate-2.jpg" alt="Udemy certificate" style="width:100%">
+            <!-- <a href="https://udemy.com"><h4>UDEMY</a> -->
+            <h4>Graphic Design Masterclass - Learn Great Design</h4>
+            <p>In this course i have learned about typography, color theory, logo design, book design, brand design and
+                many more.</p>
+        </div>
+
+    </div>
+
+    <!-- this code is for whole blogs section ----------------------------------------------------------------->
+    <div id="blogs-section">
+
+        <div class="blogs-heading about-headline">
+            <h2>BLOGS <i class="fab fa-blogger-b"></i></h2>
+        </div>
+
+        <div class="blogs-content bio">
+            <p>I am writing some blogs, when they publish. I will be sharing all them in this section.</p>
+            <h2>Coming soon</h2>
+        </div>
+
+    </div>
+
+    <!-- this code is for whole Articles section ----------------------------------------------------------------->
+    <div id="article-section">
+
+        <div class="article-heading about-headline">
+            <h2>ARTICLES <i class="fas fa-newspaper"></i></h2>
+        </div>
+
+        <div class="article-one bio">
+            <h4>GeeksforGeeks</h4>
+            <h4>Java program to write into a file</h4>
+            <p>In this article i have written about how to write into a file with the help of classes and methods on
+                java. Do give it a read share your feedback and suggestions.</p>
+            <div class="button">
+                <a href="https://www.geeksforgeeks.org/java-program-to-write-into-a-file">
+                    <button class="btn rounded">
+                        <span class="text-green">View Article</span>
+                    </button>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- This code is for whole contact section ----------------------------------------------------------------------->
+    <div id="contact-section">
+
+        <div class="contact-headline about-headline">
+            <h2>CONTACT <i class="fas fa-address-book"></i></h2>
+        </div>
+
+        <div class="contact-content">
+            <p><i class="fas fa-envelope"></i> akashpatel10000@gmail.com</p>
+            <p><i class="fas fa-map-marker-alt"></i> Narsinghpur, Madhye Pradesh, India</p>
+        </div>
+
+    </div>
+    <!-- this code is for whole social icons ------------------------------------------------------------------------------->
+    <div id="social-section">
+
+        <div class="icons">
+            <a href="https://github.com/thefstalphabet" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/man.engineerr" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/thefstalphabet" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/thefstalphabet" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100015248345332" target="_blank"><i
+                    class="fab fa-facebook-square"></i></a>
+        </div>
+
+        <div class="social-content">
+            <p>©2021 All rights reserved</p>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Java script section ---------------------------------------------------------------------------- -->
+
+        <!-- linked java script file -->
+        <script src="app.js"></script>
+
+        <!-- this code is for smooth scrool -->
+        <script
+            src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+        <script>
+            var scroll = new SmoothScroll('a[href*="#"]');
+        </script>
+
+</body>
+
+</html>
